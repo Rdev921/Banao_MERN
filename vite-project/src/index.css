@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navMenu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+    padding: 5px 72px;
+}
+
+.searchInput {
+    outline: none;
+    border: none;
+    background-color: #f8f9fa;
+    width: 360px;
+    height: 42px;
+    padding-left: 14px;
+    color: #5C5C5C;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.search-icon {
+    margin-left: 14px;
+}
+
+.create-account {
+    color: #2E2E2E;
+    text-align: right;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.itIsFree {
+    color: #2F6CE5;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.down-arrow {
+    margin-top: -6px;
+}
+
+.banner {
+    overflow-x: hidden;
+}
+
+.banner {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%), url('/assets/hero_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+}
+
+.info .title {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info .desc {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* blog section */
+.blog {
+    padding: 47px 0;
+}
+
+.blog-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    margin-bottom: 48px;
+}
+
+.blog-menu ul li a.active {
+    color: #000;
+}
+
+.blog-menu ul li a.active::before {
+    content: '';
+    height: 1.5px;
+    width: 90px;
+    background-color: black;
+    display: block;
+    transform: translateY(43px);
+}
+
+.blog-menu ul li a {
+    color: #8a8a8a;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.write-post {
+    width: 133px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #EDEEF0;
+    padding-left: 12px;
+}
+
+.down_arrow {
+    padding-left: 10px;
+    font-size: 28px;
+}
+
+.write-post div {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.user-icon {
+    height: 22px;
+    width: 22px;
+    padding-right: 6px;
+    object-fit: contain;
+}
+
+.join-group {
+    width: 125px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2F6CE5;
+    padding-left: 10px;
+
+}
+
+.join-group span {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+/* cards */
+.cards ,.cards-last{
+    padding: 0px;
+    width: 692px;
+    height: 472px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #FFF;
+    margin-bottom: 16px;
+}
+
+
+ .blog-image {
+
+    width: 692px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 4px 4px 0px 0px;
+}
+
+ .article {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+ .tagline {
+    width: 600px;
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.167%;
+    margin-bottom: 12px;
+    /* 29.517px */
+}
+
+.description {
+    width: 652px;
+    color: #5C5C5C;
+    font-family: IBM Plex Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.167%;
+    margin-bottom: 32px;
+    /* 25.492px */
+}
+
+.thumbnail {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+}
+
+.user-name {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.views {
+    margin-top: 12px;
+    position: relative;
+}
+
+.views p {
+
+    color: #525252;
+    text-align: right;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.three-dots {
+    margin-top: 10px;
+    margin-right: -112px;
+}
+
+.fa {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+
+.share {
+    width: 42px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #EDEEF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+    margin-right: -114px;
+
+}
+
+.date {
+    width: 142px;
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 4px;
+}
+
+.company {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.city {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 4px;
+}
+
+.visit-website,.jobs {
+    width: 652px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0.7px solid #A9AEB8;
+    background: #FFF;
+    color: #E56135;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140.4%;
+    /* 18.252px */
+    margin-bottom: 20 px;
+}
+.cards-last{
+    width: 692px;
+height: 269px;
+flex-shrink: 0;
+}
+.jobs{
+    color: #02B875;
+
+}
+.location{
+    margin-top: 65px;
+}
+/* .location div{
+    margin-right: 128px;
+} */
+.location p{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
+.line{
+    margin-left: 20px;
+    width: 243px;
+    background: #B8B8B8;
+    height: 0.4px;
+}
+.para{
+    width: 220px;
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;
+}
