@@ -1,5 +1,6 @@
-Blog_website_design
+<b>Blog Website Design</b>
 Tech-Stack - HTML, CSS, JavaScript, ReactJS, Bootstrap-5
+
 Here are some examples-
 ![image](https://github.com/Rdev921/Banao_MERN/assets/61020616/13a8b3e8-3a99-46cb-b1a6-c9ff65b7db45)
 
